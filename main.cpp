@@ -8,7 +8,7 @@
 using namespace std;
 
 Person::Person() {
-    this->name = "";
+    this->name = " ";
     this->id = 0;
 }
 
