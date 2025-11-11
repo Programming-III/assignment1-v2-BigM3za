@@ -2,18 +2,16 @@
 #define INSTRUCTOR_H
 
 #include "Person.h"
-using namespace std;
-//#write Instructor class here
 
+class Instructor : public Person {
+private:
+    string department;
+    int experienceYears;
 
-
-
-
-
-
-
-
-
-
+public:
+    Instructor();
+    Instructor(string name, int id, string dept, int exp);
+    void display();
+};
 
 #endif
